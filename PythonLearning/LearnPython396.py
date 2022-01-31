@@ -13,3 +13,8 @@ price = 58
 price * tax
 price + _ #use of previous number ex: the '_' will be 21.59574 as that is the previous number
 round(_,2) #rounding rounds a decimal to a certain amount of decimal places (of your choice!) How it works: round(x,y)  x= the decimal you want to round  y= how many places you want to round
+'hello' #output is 'hello'
+'won\'t you be my neighbor' #for words with the "'" symbol you will need to put a "\" before the "'" this will make the output have double quotes '""' 
+"won't you be my neighbor" #same output as above however you don't need the '\' symbol as double quotes '""' are used
+'"Won\'t you be my neighbor?" said Mr.Rodgers'#A quote inside a quote, this is the breaking point. The output of this line is '"Won\'t you be my neighbor?" said Mr.Rodgers' THIS IS NOT WHAT YOU WANT!
+print
