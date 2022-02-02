@@ -25,3 +25,12 @@ print(r'william\nathan\james') #the 'r' before the printed text
 print("""L1
 L2
 L3""")  #triple quotation marks can expand accross multiple lines
+'Teddy likes to say ' + 65 * 'sorry! ' + 'a lot!' #Words can be multiplied to be spammed multiple times!
+'Li' 'am' #output is 'Liam' as both were combined 
+abcd = 'word1'
+efg = 'word2'
+abcd + efg #output is 'word1word2' putting the two variables together with no '+' symbol results in an error
+LMfavDino = 'stegosaurus'
+LMfavDino[5] #defines what character is in certain space 
+LMfavDino[1:3] #definds characters inbetween chosen space. Output is 'et' if you made the '1' a '0' then the output would be 'ste'
+LMfavDino[-3] #negative number counts from the right as opposed from positives counting from the left
