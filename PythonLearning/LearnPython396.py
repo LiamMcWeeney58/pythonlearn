@@ -33,4 +33,10 @@ abcd + efg #output is 'word1word2' putting the two variables together with no '+
 LMfavDino = 'stegosaurus'
 LMfavDino[5] #defines what character is in certain space 
 LMfavDino[1:3] #definds characters inbetween chosen space. Output is 'et' if you made the '1' a '0' then the output would be 'ste'
+LMfavDino[5:] #output is the last 6 characters: 'saurus'
+LMfavDino[:5] #output is the first 5 characters
 LMfavDino[-3] #negative number counts from the right as opposed from positives counting from the left
+LMfavDino[5:] + LMfavDino[5:] #output is 'stegosaurus' (in a nutshell this is how the print went: 'stego' + 'saurus' = 'stegosaurus')
+#first letter is 0 
+'R' + LMfavDino[2:] #output is 'Regosaurus'
+len(LMfavDino) #the function known as 'Len()' determines 
