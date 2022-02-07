@@ -1,6 +1,10 @@
 # test comment
 print ('hello world')
+#3.1.1 Numbers 
 2+2
+17/3 #normal division
+17//3 #floor division  (gets rid of fraction part)
+17%3  #remainder of division
 50+2*4 #order of operations is used 
 5*2 #One star symbol '*' is used for multiplication (5*2=10)
 5**2 #Two stars '**' is used to calculate powers (ex: 5**2 = 25 because 5x5=25)
@@ -13,6 +17,7 @@ price = 58
 price * tax
 price + _ #use of previous number ex: the '_' will be 21.59574 as that is the previous number
 round(_,2) #rounding rounds a decimal to a certain amount of decimal places (of your choice!) How it works: round(x,y)  x= the decimal you want to round  y= how many places you want to round
+#3.1.2 Strings
 'hello' #output is 'hello'
 'won\'t you be my neighbor' #for words with the "'" symbol you will need to put a "\" before the "'" this will make the output have double quotes '""' 
 "won't you be my neighbor" #same output as above however you don't need the '\' symbol as double quotes '""' are used
@@ -40,3 +45,11 @@ LMfavDino[5:] + LMfavDino[5:] #output is 'stegosaurus' (in a nutshell this is ho
 #first letter is 0 
 'R' + LMfavDino[2:] #output is 'Regosaurus'
 len(LMfavDino) #the function known as 'Len()' determines 
+#3.1.3 Lists
+MultiplesOf9 = [9, 18, 27, 36, 45, 54, 63, 72, 81, 90]
+MultiplesOf9 #lists the variables 
+MultiplesOf9[6] #output is 63
+MultiplesOf9[-5] #output is 54
+MultiplesOf9[:]
+#Lists are akin to strings 
+MultiplesOf9 + [99, 108, 117, 126, 135, 144, 153] #output is [9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99, 108, 117, 126, 135, 144, 153]
