@@ -53,3 +53,19 @@ MultiplesOf9[-5] #output is 54
 MultiplesOf9[:]
 #Lists are akin to strings 
 MultiplesOf9 + [99, 108, 117, 126, 135, 144, 153] #output is [9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99, 108, 117, 126, 135, 144, 153]
+MultiplesOf2 = [2, 4, 6, 7, 10, 12] #hmm something is wrong here, since when was 7 a multiple of 2
+MultiplesOf2[3] = 8 #this changes a character in the string 
+#[2, 4, 6, 8, 10, 12] NEW OUTPUT! WOWZA!
+MultiplesOf2.append(14)
+MultiplesOf2.append(2*8)
+MultiplesOf2 #output is now [2, 4, 6, 7, 10, 12, 14, 16]
+BradytoBrian = ['b','r','a','d','y'] #how to put letters in a list
+BradytoBrian[2:5] = ['i','a','n'] #output is now ['b','r','i','a','n']
+BradytoBrian[4:5] = [] #output is ['b','r','i','a']
+BradytoBrian[:] = [] #nukes everything 
+BradytoBrian = ['b','r','a','d','y']
+len(BradytoBrian) #len works with lists
+CanWe = ['do', 'it']
+YesWe = ['can', 'do', 'it']
+YesWeCan= [CanWe, YesWe]
+YesWeCan #output is [['do, 'it'], ['can', 'do', 'it']] it is possible to put a list inside a list
