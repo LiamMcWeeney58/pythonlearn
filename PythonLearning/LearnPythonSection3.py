@@ -69,3 +69,4 @@ CanWe = ['do', 'it']
 YesWe = ['can', 'do', 'it']
 YesWeCan= [CanWe, YesWe]
 YesWeCan #output is [['do, 'it'], ['can', 'do', 'it']] it is possible to put a list inside a list
+print('the variable on line 29 means', qwerty) 
